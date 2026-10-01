@@ -1,0 +1,19 @@
+[project]
+name = "deepblue-account-manager-v2"
+version = "0.1.0"
+description = "This MCP server adds resources, templates and prompts"
+readme = "README.md"
+authors = [
+    { name = "Nitish Shete"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mcp==2.0.0"
+]
+
+[project.scripts]
+deepblue-account-manager-v2 = "deepblue_account_manager_v2:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"

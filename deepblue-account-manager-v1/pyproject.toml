@@ -1,0 +1,19 @@
+[project]
+name = "deepblue-account-manager-v1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nitish Shete"}
+]
+requires-python = ">=3.14"
+dependencies = [
+    "mcp==2.0.0"
+    ]
+
+[project.scripts]
+deepblue-account-manager-v1 = "deepblue_account_manager_v1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
